@@ -1,0 +1,7 @@
+<h2>Employee Details</h2>
+<p>
+  Name: {{name}} <br>
+  Id: {{userId}}
+</p>
+<!-- <a [routerLink]="['/list']">Heroes</a> -->
+<a [routerLink]="['/list', { id: userId }]">Back To List</a>
